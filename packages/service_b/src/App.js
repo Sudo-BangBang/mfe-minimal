@@ -4,7 +4,7 @@ import { StylesProvider, createGenerateClassName } from '@material-ui/core/style
 
 import Form from './components/Form';
 
-//CSS prefix to scope CSS 
+//CSS prefix to scope CSS
 const generateClassName = createGenerateClassName({
   productionPrefix: 'ser-b'
 })
