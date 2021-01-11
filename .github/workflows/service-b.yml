@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - 'packages/service-b/**'
+      - 'packages/service_b/**'
 
 defaults:
   run:
