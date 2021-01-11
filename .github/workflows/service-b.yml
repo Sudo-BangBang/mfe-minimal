@@ -3,7 +3,7 @@ name: deploy-service-b
 on:
   push:
     branches:
-      - master
+      - main
     paths:
       - 'packages/service-b/**'
 
