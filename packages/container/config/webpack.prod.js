@@ -15,8 +15,8 @@ const prodConfig = {
     new ModuleFederationPlugin({
       name: 'container',
       remotes: {
-        service_a: `service_a@${domain}/service_a/latest/remoteEntry.js`,
-        service_b: `service_b@${domain}/service_b/latest/remoteEntry.js`,
+        service_a: `service_a@${domain}/service-a/latest/remoteEntry.js`,
+        service_b: `service_b@${domain}/service-b/latest/remoteEntry.js`,
       },
       shared: packageJson.dependencies,
     })
