@@ -9,7 +9,7 @@ on:
 
 defaults:
   run:
-    working-directory: packages/service-b
+    working-directory: packages/service_b
 
 jobs:
   build:
