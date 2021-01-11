@@ -5,7 +5,7 @@ import { StylesProvider, createGenerateClassName } from '@material-ui/core/style
 import Landing from './components/Landing';
 import Pricing from './components/Pricing';
 
-//CSS prefix to scope CSS
+//CSS prefix to scope CSS 
 const generateClassName = createGenerateClassName({
   productionPrefix: 'ser-a'
 })
