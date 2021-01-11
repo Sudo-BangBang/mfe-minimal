@@ -12,7 +12,7 @@ import Header from './components/Header';
 import ServiceA from './components/ServiceAApp';
 const ServiceBLazy = lazy(() => import('./components/ServiceBApp'));
 
-//CSS prefix to scope CSS 
+//CSS prefix to scope CSS
 const generateClassName = createGenerateClassName({
   productionPrefix: 'co',
 });
